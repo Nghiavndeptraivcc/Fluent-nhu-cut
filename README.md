@@ -85,6 +85,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
     Slider:SetValue(3)
 ```
 
+# Dropdown
+
 ```lua
     local Dropdown = Tabs.Main:AddDropdown("Dropdown", {
         Title = "Dropdown",
@@ -100,6 +102,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
     end)
 
 ```
+
+# Multi DropDown
 
 ```lua
     local MultiDropdown = Tabs.Main:AddDropdown("MultiDropdown", {
@@ -126,6 +130,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
 
 ```
 
+# Color Picker
+
 ```lua
     local Colorpicker = Tabs.Main:AddColorpicker("Colorpicker", {
         Title = "Colorpicker",
@@ -139,6 +145,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
     Colorpicker:SetValueRGB(Color3.fromRGB(0, 255, 140))
 
 ```
+
+# Control Color Picker
 
 ```lua
     local TColorpicker = Tabs.Main:AddColorpicker("TransparencyColorpicker", {
@@ -156,6 +164,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
     end)
 
 ```
+
+# Key Bind
 
 ```lua
     local Keybind = Tabs.Main:AddKeybind("Keybind", {
@@ -198,6 +208,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
 
 ```
 
+# Text
+
 ```lua
     local Input = Tabs.Main:AddInput("Input", {
         Title = "Input",
@@ -215,6 +227,8 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
     end)
 end
 ```
+
+# Others
 
 ```lua
 
