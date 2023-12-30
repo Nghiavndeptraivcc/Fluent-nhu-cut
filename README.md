@@ -131,6 +131,11 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
 
 ```
 
+# Section
+```lua
+local Section = Tabs.Main:AddSection("lol")
+```
+
 # Color Picker
 
 ```lua
