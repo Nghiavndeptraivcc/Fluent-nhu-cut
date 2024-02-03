@@ -136,6 +136,14 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = fals
 local Section = Tabs.Main:AddSection("lol")
 ```
 
+# AddParagraph
+```lua
+Tabs.Main:AddParagraph({
+        Title = "Paragraph",
+        Content = "This is a paragraph.\nSecond line!"
+    })
+```
+
 # Color Picker
 
 ```lua
