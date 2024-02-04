@@ -58,7 +58,7 @@ Tabs.Main:AddButton({
 ```lua
 local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
 
-    Toggle::OnChanged(function(Value)
+    Toggle:OnChanged(function(Value)
         cuccut = Value
     end)
 
