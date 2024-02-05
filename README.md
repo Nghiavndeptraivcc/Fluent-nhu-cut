@@ -239,7 +239,6 @@ Tabs.Main:AddParagraph({
     Input:OnChanged(function()
         print("Input updated:", Input.Value)
     end)
-end
 ```
 
 # Others
